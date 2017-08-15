@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+
+  <!-- Bootstrap File -->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ <link rel="stylesheet" href="assets/css/style.css"> 
+ <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  
+</head>
+<body>
+<div id="wrapper">
+<h1> Crystal collector!! </h1>
+	 
+    <div class="row">
+    <div class="container">
+    <div class="panel-body col-md-5" id="scoreboard">
+        <!-- <h6><span id="status"></span></h6> -->
+        <h3>Wins: <span id="win"></span></h3>
+    </div>
+    <div class="panel-body col-md-5" id="scoreboard">
+        <h3>Losses: <span id="loss"></span> </h3>
+     </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+     <div class="panel-body col-md-10" id="guessingNumber">
+           <h3>Number : <span class="value"></span></<h3>
+     </div>
+    </div>
+   </div>
+     </div>
+     <!--creating buttons-->
+     <div class="row">
+     <div class="container">
+     <div class ="buttons" id="crystals">
+     <button>
+        	<img src="http://i.dailymail.co.uk/i/pix/2009/10/02/article-1217462-06A8477D000005DC-360_233x267.jpg" id="images1" />
+        	</button>
+        	<button>
+        	<img src="http://www.roadtripsavings.com/images/blue-gem.jpg" id="images2" />
+        	</button>
+        	<button>
+        	<img src="http://study.com/cimages/multimages/16/photogemsapphire.jpg" id="images3" />
+        	</button>
+        	<button>
+        	<img src="http://alisagems.com/data/attachment/201511/11/aa8d9fc663e44bd66c492de126c80bd4.jpg" id="images4" />
+        	</button>
+      </div>
+      </div>
+      </div>
+          <br>
+          <br>
+      <div class="row">
+      <div class="container">
+      <div class="panel-body col-md-11" id="totalcount">
+      <h5>Totalcount:<span id ="yourScore">0</span></h5>
+      </div>
+      </div>
+      </div>
+</div>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CRYSTAL-COLLECTOR</title>
+	<link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <! JQuery -->
+  <!-- <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<style>
+</style>
+
+	<div class="row">
+	<div class="panel panel-default">
+	<div class="panel-body col-md-6" id="random-number">
+    </div>
+	</div>
+	</div>
+<script>
+	$(document).ready(function() 
+	{  
+		// function randomnumber(){
+  		var rannum = Math.floor(Math.random()*(120-18+1))+18;
+  		$("#random-number").prepend(rannum);
+ 		 console.log(random-number);
+ 		// }
+  });
+</script>
+</body>
+</html> -->

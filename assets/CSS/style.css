@@ -1,0 +1,45 @@
+
+body{
+  background: url(https://i.ytimg.com/vi/0apHD_h8enU/maxresdefault.jpg)no-repeat center center fixed;
+}
+.panel-body{
+    border: 1px dotted #34242E;
+    margin: 30px;
+    text-align:left;
+
+}
+.buttons{
+  margin-left: 30px;
+}
+#images1,#images2,#images3,#images4{
+    width:200px;
+    height:150px;	
+}
+h1{
+text-align:center;
+font-family: 'Slackey', cursive;
+font-style: italic;
+font-weight: bold;
+font-size: 60px;
+background: -webkit-linear-gradient(#134F35, #C12A2D);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#totalcount{
+    background-color: #ADA0C3;
+    text-align: center;
+}
+h3,h5{
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#60092A, #6C5810);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#guessingNumber{
+    text-align: center;
+    border: none;  
+
+}
