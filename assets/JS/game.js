@@ -10,11 +10,12 @@
       losses:0,
       count:0,
   }
- 
+//  randomnumber function
   $(document).ready(function() {
     function random(max,min){
       return Math.floor(Math.random()*(max-min+1))+min;
     }
+//score
     function score(){
       // console.log(crystalcount.count);
       // console.log(crystalcount.generatenumber);
@@ -27,13 +28,13 @@
       }
       else if(crystalcount.count > crystalcount.generatenumber)
       {
-
         crystalcount.losses++;
         $('#loss').text(crystalcount.losses);
         newgame();
       }
       // return score();
     }
+    //newgame
     function newgame(){
       crystalcount.generatenumber= random(120,18);
       $(".value").text(crystalcount.generatenumber);
@@ -49,7 +50,7 @@
   		crystalcount.generatenumber = random(120,18);
   		$(".value").text(crystalcount.generatenumber);
 
-      $("#images1").on("click", function() {
+      $("#images1").on("click", function() {          
         if(crystalcount.redcrystal==0){
        crystalcount.redcrystal=random(12,1);
          $("#redcrystal").text($(this).text());

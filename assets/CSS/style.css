@@ -1,10 +1,10 @@
 
 body{
-  background: url(https://i.ytimg.com/vi/0apHD_h8enU/maxresdefault.jpg)no-repeat center center fixed;
+  background: url(https://i.ytimg.com/vi/F3I0wRGAkxo/maxresdefault.jpg)no-repeat center center fixed;
 }
 .panel-body{
     border: 1px dotted #34242E;
-    margin: 30px;
+    /* margin: 30px; */
     text-align:left;
 
 }
@@ -12,8 +12,9 @@ body{
   margin-left: 30px;
 }
 #images1,#images2,#images3,#images4{
-    width:200px;
-    height:150px;	
+    width:100px;
+    height:100px;	
+    align-items: center;
 }
 h1{
 text-align:center;
@@ -26,7 +27,6 @@ background: -webkit-linear-gradient(#134F35, #C12A2D);
 -webkit-text-fill-color: transparent;
 }
 #totalcount{
-    background-color: #ADA0C3;
     text-align: center;
 }
 h3,h5{
@@ -42,4 +42,12 @@ h3,h5{
     text-align: center;
     border: none;  
 
+}
+.panel-body{
+    text-align:right;
+    border: none;
+}
+#crystals{
+    float: right;
+    margin-right: 100px;
 }
